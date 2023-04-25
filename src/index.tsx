@@ -52,11 +52,11 @@ const observerData: ObserverData = {
         follow: false,
         shadow: false,
         env: {
-            value: getAssetPath('./skybox/adams_place_bridge_2k.hdr'),
+            value: getAssetPath('./skybox/BG_Gradient 10.hdr'),
             options: null,
             default: null,
-            skyboxMip: '3',
-            exposure: 0,
+            skyboxMip: '1',
+            exposure: 1,
             backgroundColor: { r: 0.4, g: 0.45, b: 0.5 }
         },
         rotation: 0,

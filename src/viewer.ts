@@ -271,7 +271,7 @@ class Viewer {
         // store app things
         this.camera = camera;
         this.cameraFocusBBox = null;
-        this.cameraPosition = null;
+        this.cameraPosition = new Vec3(0, 5, 10);
         this.light = light;
         this.sceneRoot = sceneRoot;
         this.debugRoot = debugRoot;
